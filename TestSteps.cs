@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace VisionSystemConfigFile
 {
-    public class Models
+    public class TestSteps
     {
-        public string ModelName {  get; set; }
-
-
     }
 }
