@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VisionSystemConfigFile
 {
-    public class TestSteps
+    public class Test
     {
     }
 }

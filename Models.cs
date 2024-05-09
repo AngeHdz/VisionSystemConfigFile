@@ -10,6 +10,8 @@ namespace VisionSystemConfigFile
     {
         public string ModelName {  get; set; }
 
+        public Test Test { get; set; }
+
 
     }
 }
