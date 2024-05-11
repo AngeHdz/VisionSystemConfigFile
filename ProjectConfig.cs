@@ -33,7 +33,7 @@ namespace VisionSystemConfigFile
         public List<RoiClass> RoiClasses { get; set; } = new List<RoiClass>();
         public List<string> Categories { get; set; } = new List<string>();
         public List<ProcessClass> ProcessImages { get; set; } = new List<ProcessClass> { };
-
         public string LastDirFile {  get; set; } = string.Empty;
+        public List<TestStep> TestSteps { get; set; } =  new List<TestStep> { };
     }
 }
