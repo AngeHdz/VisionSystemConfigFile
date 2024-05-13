@@ -24,5 +24,7 @@ namespace VisionSystemConfigFile
         public string Category {  get; set; }
 
         public double LowLimit {  get; set; }
+
+        public string TemplateFile { get; set; } = string.Empty;
     }
 }
