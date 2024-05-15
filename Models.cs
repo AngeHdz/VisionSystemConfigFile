@@ -8,9 +8,9 @@ namespace VisionSystemConfigFile
 {
     public class Models
     {
-        public string ModelName {  get; set; }
+        public required string ModelName {  get; set; }
 
-        public Test Test { get; set; }
+        public List<TestStep> TestSteps { get; set; } = new List<TestStep> { };
 
 
     }

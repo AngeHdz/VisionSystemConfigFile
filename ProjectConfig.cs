@@ -35,5 +35,6 @@ namespace VisionSystemConfigFile
         public List<ProcessClass> ProcessImages { get; set; } = new List<ProcessClass> { };
         public string LastDirFile {  get; set; } = string.Empty;
         public List<TestStep> TestSteps { get; set; } =  new List<TestStep> { };
+        public List<Models> Models { get; set; } = new List<Models>();
     }
 }
