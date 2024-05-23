@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VisionSystemConfigFile
 {
-    public class ProcessClass
+    public class ProcessClass 
     {
         public string Name { get; set; }
 
