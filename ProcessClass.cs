@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EmguClass.Resources.Setting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,13 @@ namespace VisionSystemConfigFile
 
         public string Type { get; set; }
 
-        public ProcessClass(string name, string type)
+        public Settings Settings { get; set; }
+
+        public ProcessClass(string name, string type, Settings settings)
         {
             Name = name;
-            this.Type = type;
+            Type = type;
+            Settings = settings;
         }   
     }
 }
